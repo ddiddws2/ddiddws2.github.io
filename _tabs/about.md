@@ -12,8 +12,10 @@ order: 4
 # Profile
 Name: kmtzw <br>
 
+***
+
 ## Certifications
-* 2018/7/29 Oracle Bronze 12c SQL
+* 2018/7/29   Oracle Bronze 12c SQL
 
 
 
