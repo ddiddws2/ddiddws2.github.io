@@ -4,18 +4,14 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<!-- comment out for now 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip } 
-`-->
+## Profile
 
-# Profile
 Name: kmtzw <br>
 
 ***
 
 ## Certifications
-* 2018/7/29   Oracle Bronze 12c SQL
+- 2018/07/29   Oracle Bronze 12c SQL
 
 
 
