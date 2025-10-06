@@ -10,9 +10,10 @@ order: 4
 `-->
 
 # Profile
-Name: kmtzw
-Work: DBA
-Place: Saitama
+Name: kmtzw <br>
+
+## Certifications
+* 2018/7/29 Oracle Bronze 12c SQL
 
 
 
