@@ -10,8 +10,9 @@ order: 4
 `-->
 
 # Profile
-kmtzw
+Name: kmtzw
+Work: DBA
+Place: Saitama
 
 
-# Contact
-kmtzw(あっと)gmail.com
+
