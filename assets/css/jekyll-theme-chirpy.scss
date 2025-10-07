@@ -1,0 +1,53 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+/* Normal */
+@font-face {
+  font-family: 'Gen Jyuu Gothic';
+  src: url('/assets/fonts/GenJyuuGothic-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium */
+@font-face {
+  font-family: 'Gen Jyuu Gothic';
+  src: url('/assets/fonts/GenJyuuGothic-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Gen Jyuu Gothic';
+  src: url('/assets/fonts/GenJyuuGothic-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* フォントの適用 */
+body, p {
+  font-family: 'Gen Jyuu Gothic', sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Gen Jyuu Gothic', sans-serif;
+  font-weight: bold;
+}
+
+h4, h5, h6 {
+  font-family: 'Gen Jyuu Gothic', sans-serif;
+  font-weight: 500;
+}
