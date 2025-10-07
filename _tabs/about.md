@@ -9,7 +9,9 @@ Name: kmtzw <br><br>
 
 
 ## Certifications
-- 2018/07/29 | Oracle Bronze 12c SQL 
+<table>
+<tr><td>Date<td>Name
+<tr><td>2018/07/29<td>Oracle Bronze 12c SQ
 
 
 
