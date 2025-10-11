@@ -5,7 +5,7 @@ order: 4
 ---
 
 ## Profile
-Name: kmtzw <br>
+Name: <span style="color:#00d1b5;">**kmtzw**</span> <br>
 
 ## Certifications
 <table>
