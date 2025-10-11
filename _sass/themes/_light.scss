@@ -1,4 +1,8 @@
 @mixin styles {
+  .card-title {
+    color: var(--heading-color) !important;
+    font-size: 1.25rem;
+  }
   /* Framework color */
   --main-bg:#eeeeee; 
   --mask-bg: #c1c3c5;
