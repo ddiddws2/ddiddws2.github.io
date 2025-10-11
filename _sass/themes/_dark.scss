@@ -16,7 +16,7 @@
   --blockquote-border-color: rgb(66 66 66);
   --blockquote-text-color: #868686;
   --link-color: #00d1b5;
-  --link-underline-color: #00d1b5;
+  --link-underline-color: none;
   --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: #00d1b5;
@@ -322,6 +322,20 @@
 .btn.btn-outline-primary {
   &:not(.disabled):hover {
     border-color: #00aa93 !important;
+  }
+}
+
+#post-list {
+  .card{
+    .card-body {
+      .card-text {
+        &.content {
+          p {
+            color: #00aa93 !important;
+          }
+        }
+      }
+    }
   }
 }
 
