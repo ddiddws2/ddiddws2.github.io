@@ -1,5 +1,5 @@
 ---
 layout: archives
-icon: fas fa-timeline
+icon: fas fa-box-archive
 order: 3
 ---
