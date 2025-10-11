@@ -70,14 +70,14 @@
 
       &:nth-child(odd) {
         background-color: var(--main-bg, #ffffff);
-        background-image: linear-gradient(
+        /*background-image: linear-gradient(
           to left,
           #ffffff,
           #fbfbfb,
           #fbfbfb,
           #fbfbfb,
           #ffffff
-        );
+        );*/
       }
 
       &::before {
