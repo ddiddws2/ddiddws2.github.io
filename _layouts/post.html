@@ -22,19 +22,24 @@ script_includes:
     {% endif %}
 
     <div class="post-meta text-muted">
+    {% comment %}
       <!-- published date -->
       <span>
         {{ site.data.locales[lang].post.posted }}
         {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
+    {% endcomment %}
+      <!-- published date -->
 
       <!-- lastmod date -->
+    {% comment %}
       {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
           {{ site.data.locales[lang].post.updated }}
           {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
+    {% endcomment %}
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
@@ -55,6 +60,7 @@ script_includes:
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
+    {% comment %}
         <span>
           {% if page.author %}
             {% assign authors = page.author %}
@@ -79,6 +85,7 @@ script_includes:
             {% endif %}
           </em>
         </span>
+    {% endcomment %}
 
         <div>
           <!-- pageviews -->
@@ -92,7 +99,9 @@ script_includes:
           {% endif %}
 
           <!-- read time -->
+    {% comment %}
           {% include read-time.html content=content prompt=true lang=lang %}
+    {% endcomment %}
         </div>
       </div>
     </div>
