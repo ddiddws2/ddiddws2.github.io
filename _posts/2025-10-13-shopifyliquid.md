@@ -1,6 +1,6 @@
 ---
 title: Liquidについて
-description: ( l＿l)
+description: Shopifyが開発しているテンプレート言語
 categories: [BLOG]
 tags: [blog, markdown, liquid]     # TAG names should always be lowercase
 ---
