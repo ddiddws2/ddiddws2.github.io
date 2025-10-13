@@ -1,5 +1,5 @@
 ---
-title: Liquisについて
+title: Liquidについて
 description: ( l＿l)
 categories: [BLOG]
 tags: [blog, markdown, liquid]     # TAG names should always be lowercase
