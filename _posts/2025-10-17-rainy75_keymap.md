@@ -9,7 +9,7 @@ mermaid: true
 
 <br>
 
-### ‍️⌨️ Rainy75は厳密にはQMK対応していない。
+## ‍️⌨️ Rainy75は厳密にはQMK対応していない。
 QMK/Via対応を謳うにはライセンスの規約上、改変したコードはパブリックに公開する必要があるが、
 githubレポジトリへの登録がないため、ライセンス違反になっている。(後継のCrush80,Zen65も同様)
 <br>
@@ -55,8 +55,8 @@ C --> D[3.ファームウェアをRainy75に焼き付ける];
 <br>
 <hr size="7" color="#e2e2e2">
      
-#### QMK作業詳細
-##### 1.QMKの作業環境をインストール 
+### QMK作業詳細
+#### 1.QMKの作業環境をインストール 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
 flowchart TB;
@@ -64,10 +64,22 @@ A[1.QMKの作業環境をインストール] --> B[QMKのインストール];
 B -- brew install qmk/qmk/qmk --> C[QMKのセットアップ];
 C -- qmk setup　--> D[テストしてみる]
 D -- qmk compile -kb blaster75 -km default --> E[生成される内容を確認]
-F@{ shape: comment, label: "brewは事前にインストールしておく" }
 ```
 
+<br>
+<hr size="7" color="#e2e2e2">
+<br>
+     
 
+#### 2.サンプルを使ってファームウェアを作成 
+```mermaid
+%%{init: {'theme':'neutral'}}%%
+flowchart TB;
+A[2.サンプルを使ってファームウェアを作成] --> B[デフォルトキーボードの設定];
+B -- qmk config user.keyboard=blaster75 --> C[キーマップの名前をつける]
+C -- qmk config user.keymap=username --> D[キーマップ作成]
+D -- qmk new-keymap -kb keyboard_name --> E[keymap.cを編集]
+```
 
 
 ### 📚 参考
