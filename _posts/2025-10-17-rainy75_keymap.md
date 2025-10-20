@@ -39,6 +39,13 @@ hr {
 ## 結論　 
 Tri-modeスイッチのソースコードがないので、ソースコードが手に入るか、<br>
 実装方法がわかるまではやらない。有線接続以外使えなくなる可能性があるので。
+Bluetoothとか2.4GhzのUSBドングルの仕様はQMKで実装してる例が見つからない。
+もしかしたら、 KeyChronとかは独自に実装してるのかもしれないけど、
+実装するとしたら、ZMKとか別のファームウェアを使って実装してる例が多い。
+なので、中華系のベンダーは複数のファームウェアを組み合わせてるまたは、
+独自実装してるのかも。Via実装してるとウケがいいってことで、Via用のJsonだけ
+提供して、内部実装は秘匿しとくと。。ま、一般ユーザー的にはそこまで深く触らなくても満足できる
+⌨️になってると思う。
 
 <br><br>
 
@@ -149,3 +156,7 @@ exeファイルも公式サイトに置いてあるので、viaをいじって�
 - [VIAのマクロでマウスキーを使う方法](https://pmortensen.eu/world2/2024/02/26/a-hack-to-use-mouse-actions-in-via-macros/)
 - [QMKマクロ応用編](https://getreuer.info/posts/keyboards/macros/index.html)
 - [自作キーボードのVIA対応方法](https://note.com/sam1dare/n/n816ce95fb2f2)
+
+#### Others
+- [QMK Configurator](https://config.qmk.fm/#/atreus/f103/LAYOUT_pcb_up)
+- [QMK Keycodes](https://docs.qmk.fm/keycodes)
