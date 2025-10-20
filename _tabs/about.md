@@ -15,7 +15,7 @@ mermaid: true
   }
 
   embed {
-    width: 60vw;
+    width: 70vw;
     height: 100vh;
   }
 </style>
@@ -53,4 +53,4 @@ Name: <span style="color:#00d1b5;">**kmtzw**</span> <br>
 
 ## Portfolio
 ### Editorial Designer
-<embed src="/assets/img/about/portfoliio_2016_09.pdf" type="application/pdf">
+<embed src="/assets/img/about/portfolio_201609.pdf#view=Fit" type="application/pdf">
