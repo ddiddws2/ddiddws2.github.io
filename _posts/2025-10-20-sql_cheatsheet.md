@@ -2,7 +2,7 @@
 title: SQLチートシート
 description: Oracle運用保守用
 categories: [SQL,Oracle,SQL,Cheatsheet]
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sql_data_base_with_logo.svg/1280px-Sql_data_base_with_logo.svg.png
+image:  /assets/img/2025-10-21-sqlcheatsheet/sql_icon.png
 tags: [sql,oracle,it]     # TAG names should always be lowercase
 mermaid: true
 ---
@@ -47,7 +47,7 @@ alter session set nls_date_format='YYYY/MM/DD HH24:MI:SS';
 -- 直近1時間の一時表領域の使用量
 set pages 2000 lin 300 colsep '|' tab off
 col SAMPLE_TIME for a18
-col TEMP_SPACE_ALLOCATED fir 9999999999
+col TEMP_SPACE_ALLOCATED for 9999999999
 col USERNAME for a15
 col MACHINE  for a30
 col PROGRAM for a35
