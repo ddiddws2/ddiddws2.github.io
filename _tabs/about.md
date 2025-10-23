@@ -53,4 +53,8 @@ Name: <span style="color:#00d1b5;">**kmtzw**</span> <br>
 
 ## Portfolio
 ### Editorial Designer
-<embed src="/assets/img/about/portfolio_201609.pdf#view=Fit&page=4" type="application/pdf">
+![Desktop View](/assets/img/about/section1.jpg)
+![Desktop View](/assets/img/about/section2.jpg)
+![Desktop View](/assets/img/about/section5.jpg)
+<a href="/assets/img/about/portfolio_201609.pdf" target="_blank"> -> Full portfolio</a>
+<!--<embed src="/assets/img/about/portfolio_201609.pdf#view=Fit&page=4" type="application/pdf">-->

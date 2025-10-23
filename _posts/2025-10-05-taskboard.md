@@ -20,6 +20,6 @@ kanban
     task4[思考法図鑑を使って思考法の勉強]
   column2[DOING]
     task1[SQLチートシートの作成]
-    task4[Liquidテンプレートの勉強]
   column3[DONE]
+    task4[Liquidテンプレートの勉強]
 ```

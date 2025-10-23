@@ -65,6 +65,88 @@ Shopifyが開発しているRubベースのテンプレート言語。<br><br>
 ↓
 {{ "myhome/town/here" | append: ".html" }}
 ```
+<br>
+<br>
+
+### 基礎知識
+#### オペレータ
+  
+|オペレータ|意味|
+|---|---|
+|==	|equals|
+|!=	|does not equal|
+|>	|greater than|
+|<	|less than|
+|>=	|greater than or equal to|
+|<=	|less than or equal to|
+|or	|logical or|
+|and	|logical and|
+|contains	|checks for the presence of a substring inside a string|
+
+<br>
+
+#### 型
+
+|型|意味|
+|---|---|
+|String	|文字列|
+|Number|数字型|
+|Boolean|真理値|
+|Nil|NULL|
+|Array|配列|
+
+>  Jekyllのテーマで使ってるLiquidは最新版ではない可能性あり
+{: .prompt-warning }
+
+<br>
+
+### Tagで使えるコンディション
+
+|コントロールフロー|
+|---|
+|if|
+|unless|
+|else/if|
+|case/when|
+
+<br>
+
+### Tagで使えるイテレーション
+
+|Iteration|
+|---|
+|for|
+|else|
+|break|
+|continue|
+|limit|
+|offset|
+|range|
+|reversed|
+|forloop|
+|cycle|
+|tablerow|
+|tablerowloop|
+
+<br>
+
+### Tagで使えるテンプレート
+
+|Template|
+|---|
+|comment|
+|raw|
+|echo|
+|render|
+
+### Tagで使える変数
+
+|Variable|
+|---|
+|assign|
+|capture|
+|increment|
+
 
 
 <br>
