@@ -153,6 +153,5 @@ Shopifyが開発しているRubベースのテンプレート言語。<br><br>
 <br>
 
 ### 📚 参考
-#### 公式リファレンス
 - [Liquid公式ブログ](https://shopify.github.io/liquid/)
-
+- [Shopify-Liquidページ](https://shopify.dev/docs/api/liquid)

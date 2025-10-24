@@ -7,17 +7,25 @@ mermaid: true
 
 <!-- no robot! -->
 <meta name="robots" content="noindex">
-
+<!-- border setting -->
 <style>
-  body {
-    margin: 0;
-    overflow: hidden;
-  }
-
-  embed {
-    width: 70vw;
-    height: 100vh;
-  }
+hr {
+  padding: 20px 0;
+  overflow: visible;
+}
+.hr1 {
+  border-top: 1px dashed #aaa;
+}
+.hr1::after {
+  display: inline-block;
+  position: relative;
+  top: -35px;
+  left: 50px;
+  padding: 0 3px;
+  background: #eeeeee;
+  color: #aaa;
+  font-size: 15px;
+} 
 </style>
 
 ## Profile
@@ -25,9 +33,9 @@ Name: <span style="color:#00d1b5;">**kmtzw**</span> <br>
 
 |Job|Period|
 |---|---|
-|Editorial Designer| 2013/09 - 2015/09|
+|Infra Enginner|2016/12 - current| 
 |Hotel Front Desk|2015/11 - 2016/11|
-|Infra Enginner|2016 - current| 
+|Editorial Designer| 2013/09 - 2015/09|
 
 <br>
 
@@ -58,22 +66,21 @@ Name: <span style="color:#00d1b5;">**kmtzw**</span> <br>
 |---|---|
 |No.|001|
 |プロジェクト名|Tokutsumi| 
-|説明|特積み用タスクボード|
+|説明|徳積み用タスクボード|
 |Front/Back|Django|
 |Template Engine|Jinja2|
 |DB|MySQL8|
 |メイン画面|![Desktop View](/assets/img/about/screen1.png)|
 |タスク作成画面|![Desktop View](/assets/img/about/screen5.png)|
 |タスク詳細画面|![Desktop View](/assets/img/about/screen2.png)|
-|本日の特積み画面|![Desktop View](/assets/img/about/screen4.png)|
+|本日の徳積み画面|![Desktop View](/assets/img/about/screen4.png)|
 |アーカイブ画面|![Desktop View](/assets/img/about/screen3.png)|
 
 <br>
 
 
-
-
-<br><br>
+<br>
+<hr class="hr1">
 
 ### Editorial Designer
 PortFolio <a href="/assets/img/about/portfolio_201609.pdf" target="_blank"> -> Full PDF</a>
