@@ -52,9 +52,33 @@ Name: <span style="color:#00d1b5;">**kmtzw**</span> <br>
 <br><br>
 
 ## Portfolio
+### Infra Engineer
+
+|Key|Value|
+|---|---|
+|No.|001|
+|プロジェクト名|Tokutsumi| 
+|説明|特積み用タスクボード|
+|Front/Back|Django|
+|Template Engine|Jinja2|
+|DB|MySQL8|
+|メイン画面|![Desktop View](/assets/img/about/screen1.png)|
+|タスク作成画面|![Desktop View](/assets/img/about/screen5.png)|
+|タスク詳細画面|![Desktop View](/assets/img/about/screen2.png)|
+|本日の特積み画面|![Desktop View](/assets/img/about/screen4.png)|
+|アーカイブ画面|![Desktop View](/assets/img/about/screen3.png)|
+
+<br>
+
+
+
+
+<br><br>
+
 ### Editorial Designer
+PortFolio <a href="/assets/img/about/portfolio_201609.pdf" target="_blank"> -> Full PDF</a>
+
 ![Desktop View](/assets/img/about/section1.jpg)
 ![Desktop View](/assets/img/about/section2.jpg)
 ![Desktop View](/assets/img/about/section5.jpg)
-<a href="/assets/img/about/portfolio_201609.pdf" target="_blank"> -> Full portfolio</a>
 <!--<embed src="/assets/img/about/portfolio_201609.pdf#view=Fit&page=4" type="application/pdf">-->
