@@ -17,9 +17,10 @@ kanban
   column1[TODO]
     task2[Mouseの無線接続の仕組み勉強]
     task3[Djangoでファイルアップロードできる仕組み作り]
-    task4[思考法図鑑を使って思考法の勉強]
+    task5[Githubのgithub actionsの仕組みを勉強]
   column2[DOING]
     task1[SQLチートシートの作成]
+    task4[思考法図鑑を使って思考法の勉強]
   column3[DONE]
     task4[Liquidテンプレートの勉強]
 ```
