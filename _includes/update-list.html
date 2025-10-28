@@ -1,20 +1,26 @@
-<!-- Get 5 last posted/updated posts -->
+<!-- Get 5 last posted/updated categories -->
 
-{% assign MAX_SIZE = 5 %}
+{% assign MAX_SIZE = 50 %}
 
 {% assign all_list = '' | split: '' %}
 
-{% for post in site.posts %}
-  {% assign datetime = post.last_modified_at | default: post.date %}
+{% assign all_list = '' | split: '' %}
+
+{% assign sorted_categories = site.categories | sort %}
+
+{% for category in sorted_categories %}
+  {% assign category_name = category | first %}
+  {% assign posts_in_category = category | last %}
+  
+  {% assign latest_post = posts_in_category | first %}
+  {% assign latest_datetime = latest_post.last_modified_at | default: latest_post.date %}
 
   {% capture elem %}
-    {{- datetime | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
+    {{- latest_datetime | date: "%Y%m%d%H%M%S" -}}::{{- category_name -}}
   {% endcapture %}
 
   {% assign all_list = all_list | push: elem %}
 {% endfor %}
-
-{% assign all_list = all_list | sort | reverse %}
 
 {% assign update_list = '' | split: '' %}
 
@@ -24,14 +30,13 @@
 
 {% if update_list.size > 0 %}
   <section id="access-lastmod">
-    <h2 class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</h2>
+    <h2 class="panel-heading">CATEGORIES</h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
-        {% assign index = item | split: '::' | last | plus: 0 %}
-        {% assign post = site.posts[index] %}
-        {% assign url = post.url | relative_url %}
+        {% assign category_name = item | split: '::' | last %}
+        {% capture category_url %}/categories/{{ category_name | slugify | url_encode }}/{% endcapture %}
         <li class="text-truncate lh-lg">
-          <a href="{{ url }}">{{ post.title }}</a>
+          <a href="{{ category_url | relative_url }}">{{ category_name }}</a>
         </li>
       {% endfor %}
     </ul>

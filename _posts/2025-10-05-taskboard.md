@@ -1,7 +1,7 @@
 ---
 title: Task Board
 description: 今後やりたいことのタスクボード
-categories: [Blog,Task]
+categories: [BLOG]
 image: /assets/img/2025-10-20-taskboard/kanban.png
 tags: [task,blog]     # TAG names should always be lowercase
 mermaid: true

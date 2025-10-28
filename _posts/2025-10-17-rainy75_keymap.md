@@ -1,13 +1,12 @@
 ---
 title: Rainy75でマウスをスムーズに動かすために悪戦苦闘
 description: QMKでファームウェアを構築していく
-categories: [KEYBOARD,QMK,VIA]
+categories: [Keyboard,QMK,VIA]
 image: /assets/img/2025-10-17-via-qmk/via_qmk.png
 tags: [rainy75, via, qmk,keyboard]     # TAG names should always be lowercase
 mermaid: true
 ---
 
-<br>
 <!-- no robot! -->
 <meta name="robots" content="noindex">
 
@@ -34,7 +33,6 @@ hr {
 </style>
 
 
-<br>
 
 ## 結論　 
 Tri-modeスイッチのソースコードがないので、ソースコードが手に入るか、<br>

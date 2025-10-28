@@ -1,13 +1,12 @@
 ---
 title: SQLチートシート
 description: Oracle運用保守用
-categories: [SQL,Oracle,SQL,Cheatsheet]
+categories: [Database,SQL,Oracle,SQL,Cheatsheet]
 image:  /assets/img/2025-10-21-sqlcheatsheet/sql_icon.png
 tags: [sql,oracle,it]     # TAG names should always be lowercase
 mermaid: true
 ---
 
-<br>
 <!-- no robot! -->
 <meta name="robots" content="noindex">
 
@@ -34,12 +33,11 @@ hr {
 </style>
 
 
-<br>
 
 ## Ora-1652チェック
 直近1時間の一時表領域のセッションごとの使用量チェックSQL
 
-```sql
+```plsql
 -- インスタンスチェック
 select instance_name from v$instance;
 alter session set nls_date_format='YYYY/MM/DD HH24:MI:SS';
@@ -83,7 +81,7 @@ order by sample_time
 ### 一時表領域使用量確認
 一時表領域使用量チェックSQL
 
-```sql
+```plsql
 -- インスタンスチェック
 select instance_name from v$instance;
 alter session set nls_date_format='YYYY/MM/DD HH24:MI:SS';
@@ -117,7 +115,7 @@ where
 ### SQL テキストチェック
 SQLIDでSQLテキストチェック
 
-```sql
+```plsql
 -- SQLテキストチェック
 set pages 1000 lin 300
 set heading off

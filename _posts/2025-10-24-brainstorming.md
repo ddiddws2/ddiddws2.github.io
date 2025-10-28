@@ -1,7 +1,7 @@
 ---
 title: 思考の参考
 description: 『思考法図鑑』を読んで、学んだこと
-categories: [Blog]
+categories: [BLOG]
 image: /assets/img/2025-10-24-brainstorming/brain1.png
 tags: [blog,brainstorming,critical thinking]     # TAG names should always be lowercase
 mermaid: true
