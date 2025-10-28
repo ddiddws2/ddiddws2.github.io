@@ -236,7 +236,7 @@ exclude:
   - "*.DS_Store"
 
 jekyll-archives:
-  enabled: [categoriesgs]
+  enabled: [categories, tags]
   layouts:
     category: category
     tag: tag
