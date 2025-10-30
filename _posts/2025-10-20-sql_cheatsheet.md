@@ -1,7 +1,7 @@
 ---
 title: SQLチートシート
-description: Oracle運用保守用
-categories: [Database,SQL,Oracle,SQL,Cheatsheet]
+description: Oracle運用保守
+categories: [Database,SQL,Oracle]
 image:  /assets/img/2025-10-21-sqlcheatsheet/sql_icon.png
 tags: [sql,oracle,it]     # TAG names should always be lowercase
 mermaid: true
