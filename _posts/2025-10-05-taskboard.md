@@ -1,7 +1,7 @@
 ---
 title: Task Board
 description: 今後やりたいことのタスクボード
-categories: [Misc]
+categories: [Task]
 image: /assets/img/2025-10-20-taskboard/kanban.png
 tags: [task,blog]     # TAG names should always be lowercase
 mermaid: true
@@ -21,6 +21,7 @@ kanban
     task6[マルウェアの勉強]
     task7[Assemblyを学んでexeファイルを逆コンパイルで解読]
     taks8[Github Pagesの挙動を理解する]
+    taks9[ネットワークの情報をグラフ化する方法を勉強する]
   column2[DOING]
     task4[思考法図鑑を使って思考法の勉強]
   column3[DONE]
